@@ -4,8 +4,8 @@
         <description>记录日记的地方</description>
         <link>/</link>
         <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2015-11-22 00:11:25</pubDate>
-        <lastBuildDate>2015-11-22 00:11:25</lastBuildDate>
+        <pubDate>2015-11-28 13:11:31</pubDate>
+        <lastBuildDate>2015-11-28 13:11:31</lastBuildDate>
         <generator>Gitblog v1.0</generator>
             </channel>
 </rss>

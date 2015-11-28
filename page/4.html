@@ -78,11 +78,11 @@ var _hmt = _hmt || [];
 		    <aside id="recent-posts" class="widget widget_recent_entries">
     <h2 class="widget-title">近期文章</h2>
     <ul>
+        <li><a href="/blog/beian2.html">还在备案中...</a></li>
         <li><a href="/blog/beian.html">域名在备案、好想体验下CDN的感觉</a></li>
         <li><a href="/blog/welcome.html">体验GitBlog</a></li>
         <li><a href="/blog/mysql-start-stop.html">如何启动/停止/重启MySQL服务</a></li>
         <li><a href="/blog/netstat.html">netstat命令的基本用法</a></li>
-        <li><a href="/blog/mmseg.html">coreseek中mmseg词库的导入方法</a></li>
         </ul>
 </aside>
 		    <aside id="tag_cloud" class="widget widget_tag_cloud">
@@ -131,6 +131,44 @@ var _hmt = _hmt || [];
         <div id="main" class="site-main" role="main">
     	    	
                 	        	<article class="post hentry">
+<header class="entry-header">
+	<h1 class="entry-title"><a href="/blog/innodb-per-table.html" rel="bookmark">InnoDB独立表空间</a></h1>
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>使用过MySQL的同学，刚开始接触最多的莫过于MyISAM表引擎了，这种引擎的数据库会分别创建三个文件：数据文件(.MYD)，索引文件(.MYI)和表结构文件(.frm)。我们可以将某个数据库目录直接迁移到其他数据库也可以正常工作。然而，当你使用InnoDB的时候，一切都变了。</p>
+</div><!-- .entry-content --><footer class="entry-footer">
+	    <span class="posted-on">
+        <span class="screen-reader-text">Posted on </span>
+        <time class="entry-date published">2015-07-23</time>
+    </span>
+		
+	    <span class="byline">
+        <span class="author vcard">
+            <span class="screen-reader-text">Author </span>
+            jockchou
+        </span>
+    </span>
+        
+        <span class="cat-links">
+        <span class="screen-reader-text">Categories </span>
+          
+           <a href="/category/1460001917.html" rel="category">MySQL数据库</a>
+            </span>
+        
+    
+        <span class="tags-links">
+    	
+        <span class="screen-reader-text">Tags </span>
+          
+           <a href="/tags/859299063.html" rel="tag">InnoDB</a>
+          
+           <a href="/tags/372942743.html" rel="tag">MySQL</a>
+          
+           <a href="/tags/738693143.html" rel="tag">数据库</a>
+          
+           <a href="/tags/432008716.html" rel="tag">表空间</a>
+            </span>
+    </footer><!-- .entry-footer --></article><!-- #post-## -->        	                	        	<article class="post hentry">
 <header class="entry-header">
 	<h1 class="entry-title"><a href="/blog/redis-weibo.html" rel="bookmark">用redis实现微博关注关系</a></h1>
 </header><!-- .entry-header -->
@@ -271,40 +309,6 @@ var _hmt = _hmt || [];
            <a href="/tags/372942743.html" rel="tag">MySQL</a>
           
            <a href="/tags/1845327201.html" rel="tag">双写缓冲</a>
-            </span>
-    </footer><!-- .entry-footer --></article><!-- #post-## -->        	                	        	<article class="post hentry">
-<header class="entry-header">
-	<h1 class="entry-title"><a href="/blog/innodb-architecture.html" rel="bookmark">InnoDB体系构架</a></h1>
-</header><!-- .entry-header -->
-<div class="entry-content">
-<p>在InnoDB存储引擎的架构中，有多个内存块，这些内存块组成一个内存池。InnoDB存储引擎体系架构如下图所示。</p>
-</div><!-- .entry-content --><footer class="entry-footer">
-	    <span class="posted-on">
-        <span class="screen-reader-text">Posted on </span>
-        <time class="entry-date published">2015-07-23</time>
-    </span>
-		
-	    <span class="byline">
-        <span class="author vcard">
-            <span class="screen-reader-text">Author </span>
-            jockchou
-        </span>
-    </span>
-        
-        <span class="cat-links">
-        <span class="screen-reader-text">Categories </span>
-          
-           <a href="/category/1460001917.html" rel="category">MySQL数据库</a>
-            </span>
-        
-    
-        <span class="tags-links">
-    	
-        <span class="screen-reader-text">Tags </span>
-          
-           <a href="/tags/859299063.html" rel="tag">InnoDB</a>
-          
-           <a href="/tags/372942743.html" rel="tag">MySQL</a>
             </span>
     </footer><!-- .entry-footer --></article><!-- #post-## -->        	                
         <nav class="navigation pagination" role="navigation">
